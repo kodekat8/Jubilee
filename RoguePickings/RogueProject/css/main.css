@@ -1,0 +1,126 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header h1 {
+  padding: 50px 0;
+  font-size: 30px;
+  float: left;
+}
+header h1 span {
+  color: #77a466;
+}
+header nav {
+  float: right;
+  padding: 75px 0;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+  padding-left: 25px;
+  font-size: 14px;
+}
+
+/***** DESCRIPTION *****/
+
+#description img {
+  border-top: solid #77a466;
+  border-bottom: solid #77a466;
+}
+#description h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+#description p {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+/***** SPECIALS_REVIEWS_CONTACT *****/
+
+#specials-reviews-contact {
+  overflow: auto;
+}
+#specials-reviews-contact h3 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+#specials, #reviews, #contact {
+  border-top: solid 1px #D3D3D3;
+  padding: 30px;
+  height: auto;
+}
+#reviews {
+  border-left: solid 1px #D3D3D3;
+  border-right: solid 1px #D3D3D3;
+}
+#specials ul {
+  padding: 0;
+  margin: 0;
+}
+#specials ul li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 32px;
+}
+#specials ul li a {
+  color: #77a466;
+  text-decoration: none;
+}
+#reviews {
+  font-size: 16px;
+  line-height: 21px;
+}
+#contact {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: solid 1px #D3D3D3;
+}
+footer span {
+  font-family: 'Wisdom Script';
+  font-weight: normal;
+  color: #77a466;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
